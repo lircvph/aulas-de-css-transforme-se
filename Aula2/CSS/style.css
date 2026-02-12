@@ -1,0 +1,39 @@
+body {
+    background-color: burlywood;
+}
+
+.ex1 {
+    border: 6px solid white;
+}
+
+.ex2 {
+    border: 6px solid white;
+    border-width: medium;
+}
+
+.ex3 {
+    border: 6px dotted olive;
+}
+
+.ex4 {
+    border: dotted olive;
+    border-width: thin;
+}
+
+.ex5 {
+    border: solid;
+    border-width: 15px 20px;
+    border-color: blue orange pink red;
+}
+
+.ex6 {
+    border-top-style: solid;
+    border-left-style: dotted;
+    border-bottom-style: double;
+    border-right-style: dashed;
+}
+
+.ex7 {
+    border: 6px solid violet;
+    border-radius: 20px;
+}

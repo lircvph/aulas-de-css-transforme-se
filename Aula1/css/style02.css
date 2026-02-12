@@ -1,0 +1,7 @@
+body {
+    background-image: url(/Aula1/img/wallpaper.jpg);
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
