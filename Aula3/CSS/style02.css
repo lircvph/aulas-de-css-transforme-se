@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(182, 155, 208);
+}
+
+.ex1 {
+    background-color: rgb(102, 77, 125);
+    border: 3px solid rgb(65, 19, 65);
+    color: rgb(47, 1, 47);
+    outline-style: dotted;
+    outline-color: blueviolet;
+    outline-offset: 10px;
+    width: 400px;
+    margin: 30px auto;
+}

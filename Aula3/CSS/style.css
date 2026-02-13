@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(162, 113, 208);
+}
+
+.ex1 {
+    background-color: blueviolet;
+    width: 400px;
+    height: 300px;
+}
+
+.div1 {
+    background-color: deeppink;
+    width: 680px;
+
+}
+
+.ex2 {
+    background-color: pink;
+    max-width: 680px;
+}
