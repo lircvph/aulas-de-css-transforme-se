@@ -1,0 +1,42 @@
+body {
+    background-color: lemonchiffon;
+}
+
+.link:link {
+    color: white;
+    background-color: blue;
+}
+
+.link:hover {
+    color: deeppink;
+    background-color: white;
+}
+
+.link:active {
+    color: chartreuse;
+    background-color: black;
+}
+
+.link:visited {
+    color: cyan;
+    background-color: red;
+}
+
+* {
+   cursor: url('/Aula4/img/Red\ Ferrari\ 488--pointer--SweezyCursors.png'), auto;
+}
+
+.link-btn:link,.link:visited {
+    background-color: transparent;
+    color: white;
+    padding: 28px 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.link-btn:link, .link:active {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
