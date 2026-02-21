@@ -1,0 +1,159 @@
+body {
+    background-color: rgb(152, 152, 152);
+    color: white;
+}
+
+.ex1 {
+    background-color: rgb(129, 128, 128);
+    grid-template-columns: auto auto auto;
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+}
+
+.ex1 div {
+    height: 30px;
+    background-color: rgb(99, 99, 99);
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    align-content: center;
+    font-family: sans-serif;
+}
+
+.ex2 {
+    background-color: rgb(129, 128, 128);
+    grid-template-columns: 200px 80px auto;
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+}
+
+.ex2 div {
+    height: 30px;
+    background-color: rgb(99, 99, 99);
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    align-content: center;
+    font-family: sans-serif;
+}
+
+.ex3 {
+    background-color: rgb(129, 128, 128);
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+}
+
+.ex3 div {
+    height: 30px;
+    background-color: rgb(99, 99, 99);
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    align-content: center;
+    font-family: sans-serif;
+}
+
+.ex4 {
+    background-color: rgb(129, 128, 128);
+    grid-template-columns: minmax(188px, 1fr)150px 150px;
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+}
+
+.ex4 div {
+    height: 30px;
+    background-color: rgb(99, 99, 99);
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    align-content: center;
+    font-family: sans-serif;
+}
+
+.ex5 {
+    background-color: rgb(129, 128, 128);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 80px 200px ;
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+}
+
+.ex5 div {
+    background-color: rgb(99, 99, 99);
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    align-content: center;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.ex6 {
+    background-color: rgb(129, 128, 128);
+    grid-template-columns: auto auto auto;
+    display: grid;
+    row-gap: 20px;
+    padding: 5px;
+    gap: 5px;
+}
+
+.ex6 div {
+    background-color: rgb(99, 99, 99);
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    align-content: center;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.ex7 {
+     background-color: rgb(129, 128, 128);
+    grid-template-columns: auto auto auto;
+    display: grid;
+    row-gap: 40px;
+    padding: 5px;
+}
+
+.ex7 div {
+    background-color: rgb(99, 99, 99);
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    align-content: center;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.ex8 {
+     background-color: rgb(129, 128, 128);
+    grid-template-columns: auto auto auto;
+    display: grid;
+    padding: 5px;
+    gap: 40px;
+}
+
+.ex8 div {
+    background-color: rgb(99, 99, 99);
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    align-content: center;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.ex9 {
+    background-color: rgb(129, 128, 128);
+    grid-template-columns: auto auto auto;
+    display: grid;
+    padding: 5px;
+    gap: 10px 50px;
+}
+
+.ex9 div {
+    background-color: rgb(99, 99, 99);
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    align-content: center;
+    font-family: sans-serif;
+    padding: 10px;
+}
